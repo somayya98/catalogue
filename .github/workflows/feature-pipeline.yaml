@@ -2,7 +2,7 @@ name: feature-pipeline
 on: [push]
 jobs:
   feature-pipeline:
-    uses: somayya98/workflows/.github/workflows/feature-nodejs-pipeline.yaml@main
+    uses: somayya98/workflows/.github/workflows/feature-nodejs-pipeline.yaml
     
     with:
       project: roboshop
